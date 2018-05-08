@@ -24,6 +24,7 @@ public class JobSchedulerService extends JobService {
         mJobHandler.sendMessage( Message.obtain( mJobHandler, 1, params ) );
 
         System.out.println("~~~ JobSchedulerService Started ~~~");
+        System.out.println("~~~ JobSchedulerService Started ~~~");
         return true;
     }
 
